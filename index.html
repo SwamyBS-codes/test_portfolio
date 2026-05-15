@@ -10,59 +10,134 @@
   <header>
     <a class="brand" href="index.html">Your Name</a>
     <nav>
+      <a href="services.html">Services</a>
       <a href="projects.html">Projects</a>
       <a href="about.html">About</a>
+      <a href="writing.html">Writing</a>
+      <a href="resume.html">Resume</a>
+      <a href="case-study.html">Case study</a>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
 
   <main class="container">
     <section class="hero">
-      <div>
+      <div class="hero-copy">
+        <p class="eyebrow">Product design and front-end development</p>
         <h1>Hi — I'm Your Name.</h1>
-        <p class="lead">I build accessible, performant web interfaces. I work with HTML, CSS, JavaScript, and modern frameworks.</p>
+        <p class="lead">I build accessible, performant web interfaces and thoughtful digital experiences. I work across design systems, front-end architecture, content strategy, and launch support for small teams and growing products.</p>
         <div class="actions">
           <a class="btn" href="projects.html">View projects</a>
+          <a class="btn secondary" href="services.html">See services</a>
         </div>
       </div>
       <aside class="card">
-        <h3>Contact</h3>
-        <p style="margin:0;color:var(--muted)">Email: <strong>you@example.com</strong></p>
+        <h3>Snapshot</h3>
+        <div class="meta">
+          <span class="chip">Design systems</span>
+          <span class="chip">UI engineering</span>
+          <span class="chip alt">Content strategy</span>
+          <span class="chip alt">Accessibility</span>
+        </div>
+        <p class="subtle">Email: <strong>you@example.com</strong><br>Based anywhere, available for remote work and select in-person collaborations.</p>
       </aside>
     </section>
 
-    <section id="projects">
-      <h2 style="margin-top:1.5rem">Projects</h2>
+    <section class="section">
+      <div class="section-head">
+        <h2>Selected work</h2>
+        <a href="projects.html">All projects</a>
+      </div>
       <div class="projects">
         <article class="card">
           <h3>Project One</h3>
-          <p class="muted" style="color:var(--muted)">Short description of the project and tech used.</p>
+          <p class="subtle">A product redesign for a service business that needed faster conversion, clearer pricing, and better mobile interactions.</p>
+          <div class="meta"><span class="chip">Landing page</span><span class="chip">Conversion</span></div>
         </article>
         <article class="card">
           <h3>Project Two</h3>
-          <p class="muted" style="color:var(--muted)">Short description of the project and tech used.</p>
+          <p class="subtle">A component library and documentation site built to help a team ship consistent UI faster across multiple products.</p>
+          <div class="meta"><span class="chip">Design system</span><span class="chip">Docs</span></div>
         </article>
         <article class="card">
           <h3>Project Three</h3>
-          <p class="muted" style="color:var(--muted)">Short description of the project and tech used.</p>
+          <p class="subtle">An editorial portfolio for a creative founder with a focus on strong visuals, fast loading, and easy updates.</p>
+          <div class="meta"><span class="chip">Editorial</span><span class="chip">Performance</span></div>
         </article>
       </div>
     </section>
 
-    <section id="about">
-      <h2 style="margin-top:1.5rem">About</h2>
-      <div class="card" style="margin-top:.75rem">
-        <p style="margin:0;color:var(--muted)">Brief bio — who you are, what you do, and what you're looking for.</p>
+    <section class="section split">
+      <div class="card">
+        <h2>About</h2>
+        <p class="subtle">I help teams turn rough ideas into production-ready interfaces. That usually means simplifying the user journey, shaping the content, and building resilient components that are easy to maintain.</p>
+        <p class="subtle">Recent work has included SaaS marketing sites, internal dashboards, and content-heavy pages that need to stay readable and fast on mobile.</p>
+      </div>
+      <div class="card">
+        <h2>Highlights</h2>
+        <div class="stats">
+          <div class="stat"><strong>12+</strong><span class="subtle">years building on the web</span></div>
+          <div class="stat"><strong>40+</strong><span class="subtle">projects delivered</span></div>
+          <div class="stat"><strong>3</strong><span class="subtle">core specialties</span></div>
+        </div>
       </div>
     </section>
 
-    <section id="contact">
-      <h2 style="margin-top:1.5rem">Get in touch</h2>
-      <form class="card" style="margin-top:.75rem;display:grid;gap:.5rem" action="#" onsubmit="alert('Replace this with a real contact handler')"> 
-        <input name="name" placeholder="Name" style="padding:.5rem;border-radius:6px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit">
-        <input name="email" placeholder="Email" style="padding:.5rem;border-radius:6px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit">
-        <textarea name="message" placeholder="Message" rows="4" style="padding:.5rem;border-radius:6px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit"></textarea>
-        <div style="text-align:right"><button class="btn" type="submit">Send</button></div>
+    <section class="section">
+      <div class="section-head">
+        <h2>Services</h2>
+        <a href="services.html">What I do</a>
+      </div>
+      <div class="cards">
+        <article class="card"><h3>Interface design</h3><p class="subtle">Wireframes, visual direction, and polished UI for landing pages, apps, and dashboards.</p></article>
+        <article class="card"><h3>Front-end build</h3><p class="subtle">Responsive HTML, CSS, JavaScript, and component-driven implementation with maintainable structure.</p></article>
+        <article class="card"><h3>Content shaping</h3><p class="subtle">Messaging cleanup, page structure, and layout decisions that make the experience easier to scan and understand.</p></article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>More pages</h2>
+        <span class="subtle">Extra sections for depth and structure</span>
+      </div>
+      <div class="cards">
+        <a class="card" href="resume.html"><h3>Resume</h3><p class="subtle">Experience, skills, and education in a compact page.</p></a>
+        <a class="card" href="writing.html"><h3>Writing</h3><p class="subtle">Notes and articles that show how you think about design.</p></a>
+        <a class="card" href="case-study.html"><h3>Case study</h3><p class="subtle">A deeper story about process, problem-solving, and outcomes.</p></a>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div class="card">
+        <h2>Process</h2>
+        <div class="timeline">
+          <div class="timeline-item"><strong>Discover</strong><span class="subtle">Clarify goals, users, constraints, and success metrics.</span></div>
+          <div class="timeline-item"><strong>Design</strong><span class="subtle">Map the page structure, hierarchy, and interaction details.</span></div>
+          <div class="timeline-item"><strong>Build</strong><span class="subtle">Ship responsive pages with reusable patterns and accessible components.</span></div>
+          <div class="timeline-item"><strong>Refine</strong><span class="subtle">Measure, iterate, and tighten the details after launch.</span></div>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Testimonials</h2>
+        <p class="quote">“The site felt more credible immediately. The new structure made the product easier to explain and the design easier to trust.”</p>
+        <p class="subtle">- Example client, product founder</p>
+      </div>
+    </section>
+
+    <section class="section card">
+      <div class="section-head">
+        <h2>Get in touch</h2>
+        <a href="contact.html">Contact page</a>
+      </div>
+      <form action="#" onsubmit="alert('Replace this with a real contact handler')">
+        <div class="grid" style="margin-bottom:.75rem">
+          <input name="name" placeholder="Name">
+          <input name="email" placeholder="Email">
+        </div>
+        <textarea name="message" placeholder="Message" rows="5"></textarea>
+        <div class="actions" style="justify-content:flex-end">
+          <button class="btn" type="submit">Send</button>
+        </div>
       </form>
     </section>
   </main>

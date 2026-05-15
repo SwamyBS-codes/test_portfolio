@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Writing — Your Name</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="index.html">Your Name</a>
+    <nav>
+      <a href="services.html">Services</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About</a>
+      <a href="writing.html">Writing</a>
+      <a href="resume.html">Resume</a>
+      <a href="case-study.html">Case study</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Writing</p>
+        <h1>Notes on design, front-end work, and the decisions behind clearer websites.</h1>
+        <p class="lead">A writing page gives the portfolio more depth and shows how I think. Swap the placeholders below for real articles, case notes, or links to external posts.</p>
+      </div>
+      <div class="card">
+        <h3>Topics</h3>
+        <div class="meta">
+          <span class="chip">Accessibility</span><span class="chip">Design systems</span><span class="chip alt">Content strategy</span><span class="chip alt">Performance</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cards">
+      <article class="card">
+        <h3>How to simplify a homepage</h3>
+        <p class="subtle">A practical look at reducing clutter, tightening the message, and making the next step obvious.</p>
+      </article>
+      <article class="card">
+        <h3>What makes a UI feel trustworthy</h3>
+        <p class="subtle">A breakdown of spacing, hierarchy, consistency, and other cues that affect credibility.</p>
+      </article>
+      <article class="card">
+        <h3>Design systems for small teams</h3>
+        <p class="subtle">A lightweight approach to reusable components without creating a heavy process.</p>
+      </article>
+      <article class="card">
+        <h3>Accessibility as a first draft habit</h3>
+        <p class="subtle">How to build with semantics and keyboard navigation in mind before polish begins.</p>
+      </article>
+    </section>
+
+    <section class="section card">
+      <h2>Recent notes</h2>
+      <div class="timeline">
+        <div class="timeline-item"><strong>Page structure matters more than decoration</strong><span class="subtle">If the hierarchy is unclear, no amount of visual detail will rescue the page.</span></div>
+        <div class="timeline-item"><strong>Consistent spacing reduces cognitive load</strong><span class="subtle">Predictable rhythm makes scanning and navigation easier.</span></div>
+        <div class="timeline-item"><strong>Performance is part of UX</strong><span class="subtle">Fast pages feel more reliable, especially on mobile and weak networks.</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><small>© <span id="year"></span> Your Name — Built with care.</small></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

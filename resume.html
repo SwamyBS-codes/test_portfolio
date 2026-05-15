@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Resume — Your Name</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="index.html">Your Name</a>
+    <nav>
+      <a href="services.html">Services</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About</a>
+      <a href="writing.html">Writing</a>
+      <a href="resume.html">Resume</a>
+      <a href="case-study.html">Case study</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Resume</p>
+        <h1>Experience, skills, and education in one place.</h1>
+        <p class="lead">This page gives visitors a more detailed view of your background. Replace the placeholders with your real work history and credentials.</p>
+      </div>
+      <div class="card">
+        <h3>Quick facts</h3>
+        <div class="meta">
+          <span class="chip">Front-end</span><span class="chip">Design</span><span class="chip alt">Strategy</span><span class="chip alt">Remote-ready</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div class="card">
+        <h2>Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item"><strong>Senior Front-end Developer</strong><span class="subtle">Built responsive interfaces, improved site performance, and collaborated on design systems.</span></div>
+          <div class="timeline-item"><strong>UI/UX Designer</strong><span class="subtle">Designed landing pages, product flows, and reusable layout patterns.</span></div>
+          <div class="timeline-item"><strong>Freelance Web Designer</strong><span class="subtle">Helped small businesses launch clearer, more polished websites.</span></div>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Skills</h2>
+        <div class="meta">
+          <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span>
+          <span class="chip">Responsive layout</span><span class="chip">Accessibility</span><span class="chip alt">Design systems</span>
+        </div>
+        <h2 style="margin-top:1.25rem">Education</h2>
+        <div class="timeline">
+          <div class="timeline-item"><strong>Bachelor’s Degree</strong><span class="subtle">Relevant field, school name, graduation year.</span></div>
+          <div class="timeline-item"><strong>Certificates</strong><span class="subtle">Short courses or certifications that matter to your practice.</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><small>© <span id="year"></span> Your Name — Built with care.</small></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
