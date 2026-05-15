@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Projects — Your Name</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="index.html">Your Name</a>
+    <nav>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Projects</h1>
+    <div class="projects" style="margin-top:1rem">
+      <article class="card">
+        <h3>Project One</h3>
+        <p style="color:var(--muted)">Short description of the project and tech used.</p>
+      </article>
+      <article class="card">
+        <h3>Project Two</h3>
+        <p style="color:var(--muted)">Short description of the project and tech used.</p>
+      </article>
+      <article class="card">
+        <h3>Project Three</h3>
+        <p style="color:var(--muted)">Short description of the project and tech used.</p>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <small>© <span id="year"></span> Your Name — Built with care.</small>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

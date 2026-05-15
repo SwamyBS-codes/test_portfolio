@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>About — Your Name</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="index.html">Your Name</a>
+    <nav>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>About</h1>
+    <div class="card" style="margin-top:.75rem">
+      <p style="margin:0;color:var(--muted)">Brief bio — who you are, what you do, and what you're looking for.</p>
+    </div>
+  </main>
+
+  <footer>
+    <small>© <span id="year"></span> Your Name — Built with care.</small>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

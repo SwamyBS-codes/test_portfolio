@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact — Your Name</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="index.html">Your Name</a>
+    <nav>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Get in touch</h1>
+    <form class="card" style="margin-top:.75rem;display:grid;gap:.5rem" action="#" onsubmit="alert('Replace this with a real contact handler')"> 
+      <input name="name" placeholder="Name" style="padding:.5rem;border-radius:6px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit">
+      <input name="email" placeholder="Email" style="padding:.5rem;border-radius:6px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit">
+      <textarea name="message" placeholder="Message" rows="4" style="padding:.5rem;border-radius:6px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit"></textarea>
+      <div style="text-align:right"><button class="btn" type="submit">Send</button></div>
+    </form>
+  </main>
+
+  <footer>
+    <small>© <span id="year"></span> Your Name — Built with care.</small>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
